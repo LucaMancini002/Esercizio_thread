@@ -13,17 +13,15 @@ namespace Thread_mancini2
         {
             Thread mythread = new Thread(() =>
             {
-                  Console.WriteLine("My thread è iniziato");
-                  Thread.Sleep(1000);//tempo di attesa (1 secondo)
-                  Console.WriteLine("My thread è terminato");
+                Console.WriteLine("My thread è iniziato");
+                Thread.Sleep(1000);//tempo di attesa (1 secondo)
+                Console.WriteLine("My thread è terminato");
             });
             //esecuzione di my thread
             mythread.Start();
 
             Thread.Sleep(500);// 1/2 secondo
             Console.WriteLine("Main thread");
-
-            Console.ReadLine();
 
         }
     }
