@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace thread3
 {
-    class Program
+    class es3
     {
         static void Main(string[] args)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Thread_mancini2
 {
-    class Program
+    class es1
     {
         static void Main(string[] args)
         {
@@ -23,6 +23,7 @@ namespace Thread_mancini2
             Thread.Sleep(500);// 1/2 secondo
             Console.WriteLine("Main thread");
 
+            Console.ReadLine();
         }
     }
 }

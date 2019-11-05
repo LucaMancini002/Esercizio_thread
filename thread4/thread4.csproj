@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{784276EA-D01C-404F-9AC4-2C2F7EE0F5F8}</ProjectGuid>
+    <ProjectGuid>{618911BC-D244-414D-8911-05657DDC5A28}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Thread_mancini2</RootNamespace>
-    <AssemblyName>Thread_mancini2</AssemblyName>
+    <RootNamespace>thread4</RootNamespace>
+    <AssemblyName>thread4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="es1.cs" />
+    <Compile Include="es4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
