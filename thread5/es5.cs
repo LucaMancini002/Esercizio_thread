@@ -13,9 +13,17 @@ namespace thread5
         {
             var workerThread = new Thread(() =>
             {
-            Console.WriteLine("Inizio di un thread molto lungo");
-            Thread.Sleep(5000);
-                Console.WriteLine("Terminate worked thread");
+                try
+                {
+                    Console.WriteLine("Inizio di un thread molto lungo");
+                    Thread.Sleep(5000);
+                    Console.WriteLine("Terminate worked thread");
+                }
+                catch(ThreadAbortException ex)
+                {
+                    Console.WriteLine("Il thread è stato abortito");
+                }
+          
             });
 
             workerThread.Start();
