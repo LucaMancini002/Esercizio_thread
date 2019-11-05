@@ -25,6 +25,7 @@ namespace thread4
                 list.Add(myThread);
             }
 
+            //attende il termine di tutti i thred prima di stampare
             foreach(Thread thread in list)
             {
                 thread.Join(10000);//tempo di attesa
